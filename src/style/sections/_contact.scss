@@ -33,5 +33,20 @@
         font-size: 2rem;
       }
     }
+
+    &__phone {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      a {
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      .phoneIcon {
+        height: 30px;
+      }
+    }
   }
 }
