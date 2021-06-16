@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/piotr-humin-454b3a207/',
     },
     {
       id: nanoid(),
