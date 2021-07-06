@@ -28,6 +28,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'memory-game.jpg',
+    title: 'Gra pamięciowa',
+    info: 'Gra polegająca na szukaniu par obrazków. Gracz w jak najszybszym czasie musi znaleźć wszystkie bliźniacze obrazki. Jeśli zrobi to odpowiednio szybko jego imie zostanie zapisane w tabeli rekordzistów! ',
+    info2: 'Użyte technologie: React, redux, styled-components, localStorage',
+    url: 'https://memory-game-ph.netlify.app/',
+    repo: 'https://github.com/HuminPiotr/memory-game', // if no repo, the button will not show up
+
+  },
+  {
+    id: nanoid(),
     img: 'gabinetPsychologiczny.jpg',
     title: 'Strona gabinetu psychologicznego',
     info: 'Prosta strona "wizytówka" dla prywatnego gabinetu psychologizcnego. Zawiera blog i formularz kontaktowy.',
@@ -47,16 +57,7 @@ export const projectsData = [
 
   },
 
-  {
-    id: nanoid(),
-    img: 'cgt.jpg',
-    title: 'Strona Centrum gabinetów terapeutycznych',
-    info: 'Wykonana dla grupy terapeutów. Strona umożliwia proste dodawanie postów na bloga przy pomocy datoCMS (headless cms).',
-    info2: 'Zaprojektowana wspólnie z klientkami przy pomocy programu Figma. Napisana w gatsby.',
-    url: 'https://centrum-gabinetow-terapeutycznych.pl/',
-    repo: 'https://github.com/HuminPiotr/Centrum-Gabinetow-Terapeutycznych-2', // if no repo, the button will not show up
 
-  },
 ];
 
 // CONTACT DATA
